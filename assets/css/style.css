@@ -1,0 +1,148 @@
+body {
+    color: #777777;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: 100%;
+    height: 92vh;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border-bottom: 2px solid #cccccc;
+    overflow: hidden;
+}
+
+.headerContent {
+    width: 960px;
+    margin: 15px auto;
+}
+
+
+nav {
+    float: right;
+    padding-top: 13px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    border-right: 1.5px solid #e0e0e0;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    padding: 0 10px 0 5px;
+}
+
+li.last {
+    border: 0;
+    padding: 0;
+}
+
+
+
+.content {
+    width: 910px;
+    background: #fff;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    padding: 10px 25px 25px 25px;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    color: #fff;
+    border-top: 8px solid #4aaaa5;
+    height: 8vh;
+}
+
+h1,
+h2 {
+    font-family: 'Georgia', Times, Times, serif;
+}
+
+h1 {
+    color: #fff;
+    background-color: #4aaaa5;
+    display: inline;
+    padding: 70px 25px;
+
+}
+
+h2 {
+    color: #4aaaa5
+}
+
+.profilePic {
+    float: left;
+    margin-right: 20px;
+}
+
+.portfolioImgLeft {
+    float: left;
+    margin: 0px 25px 25px 0;
+    clear: both;
+}
+
+.portfolioImg {
+    float: left;
+    margin: 0px 25px 20px 0;
+}
+
+.portfolioImgRight {
+    float: left;
+}
+
+hr {
+    margin-bottom: 25px;
+    height: 3px;
+    background-color: #e0e0e0;
+    border: 0;
+}
+
+textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    resize: vertical;
+    min-height: 50px;
+}
+
+input {
+    height: 20px;
+    width: 100%;
+}
+
+input#submit {
+    background-color: #4aaaa5;
+    color: #fff;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+    height: 30px;
+    width: 80px;
+}
+
+::placeholder {
+    color: #d6d6d6;
+    opacity: 1;
+}
